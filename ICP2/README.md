@@ -16,3 +16,11 @@ In today's class we learned basics tags in html
 
 ![Output 1](./Documentation/output1.png)
 ![Output 2](./Documentation/output2.png)
+
+# Cube output
+
+![Output 1](./Documentation/Cube.png)
+
+# Google recent tabs output.
+
+![Output 1](./Documentation/Google_List_Final_Output.png)
