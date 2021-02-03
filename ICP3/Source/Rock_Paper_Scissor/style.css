@@ -1,0 +1,13 @@
+body {
+  text-align: center;
+  margin: 0 auto;
+  background: linear-gradient(to right, cyan, pink);
+}
+
+h1 {
+  color: rgb(34, 11, 243);
+}
+
+img {
+  margin: 20px;
+}
