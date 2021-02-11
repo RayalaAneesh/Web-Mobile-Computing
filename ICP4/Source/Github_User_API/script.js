@@ -1,15 +1,18 @@
-// Targetting the input tag.
+// Targetting the input tag and output to get the data.
 let output = document.querySelector('#output');
 let search = document.querySelector('#search');
+
+// Eventlistener to handle enter key
 search.addEventListener("keypress",(e)=>{
     if(e.key === 'Enter'){
         let userName = search.value;
+        // calling result() and also passing parameter userdata
         result(userName).then(userData=>html(userData))
     }
 })
 
 
-// Eventlistener for button click
+// Eventlistener for search button click
 let searchButton = document.querySelector('button');
 searchButton.addEventListener('click',()=>{
     let userName = document.querySelector('#search').value
@@ -24,6 +27,7 @@ let result = async (userName) =>{
     const data = await fetch(url)
     const userData = await data.json()
     console.log(userData)
+    // Validating if the data is obtained or not.
     if(userData.id){
         console.log('got the data')
         let userInfo = {
@@ -40,19 +44,22 @@ let result = async (userName) =>{
         console.log(userInfo)
         return userInfo
     }else{
+        // If data not obtained notFound() is called to display no data info.
         let userInfo = notFound()
         return userInfo
     }
     
 }
+// html() displays data by targetting the output div element.
 function html({name,id,avatar,bio,htmlUrl,login,url,joined}){
+    // Below if conditions checks if name and bio are null if so they are set to no data.
     if(name===null || name===undefined){
         name=search.value
     }
     if(bio === null || bio === undefined){
         bio = "This user has no bio."
     }
-    // Rayala you're stupid.
+    // Targetting the output to display the card.
     output.innerHTML= `<div class="card text-white bg-dark mb-3" style="max-width: 540px;">
     <div class="row g-0">
       <div class="col-lg-6 col-md-4 ">
@@ -70,6 +77,8 @@ function html({name,id,avatar,bio,htmlUrl,login,url,joined}){
     </div>
   </div>`;
 }
+
+// notFound() sets the data to no info.
 
 const notFound = () =>{
     const userInfo = {
