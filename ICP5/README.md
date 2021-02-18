@@ -8,6 +8,10 @@ In this ICP I've learned all about typescript following the official typescript 
 2. Install angular cli by using this command. **npm install -g @angular/cli**
 3. Follow angular documentaion where says get started to get with your initial angular project.
 
+# How to run??
+ Run the following command after clonning the repo.
+ **ng serve --open** so that live-server starts at https://localhost:4200
+ 
 # OUTPUTS
 
 ## Both the tasks TIMER AND TODOLIST are displayed below.
