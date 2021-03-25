@@ -11,6 +11,6 @@ In which in this ICP i mostly learned about how to use android studio i.e how to
    ![Output 2](./Documentation/Images/Login.png)
 
 3. Home Screen with all predefined data
-   ![Output 5](./Documentation/Images/Home.png)
+   ![Output 5](./Documentation/Images/AfterLogin.png)
 
 4. When the logout button is clicked it just brings you back to the inital login screen.
