@@ -5,10 +5,10 @@ In this ICP we are asked to make a pizza application where user can select the t
 # OUTPUTS
 
 1. Initial Screen
-   ![Output 1](./Documentation/Images/initial-screen.png)
+   ![Output 1](https://github.com/RayalaAneesh/Web-Mobile-Computing/blob/master/ICP9/Documentation/initial-screen.png)
 
 2. Order Summary
-   ![Output 2](./Documentation/Images/summary.png)
+   ![Output 2](https://github.com/RayalaAneesh/Web-Mobile-Computing/blob/master/ICP9/Documentation/summary.png)
 
 3. Email Sent with order summary
-   ![Output 3](./Documentation/Images/email-sent.png)
+   ![Output 3](https://github.com/RayalaAneesh/Web-Mobile-Computing/blob/master/ICP9/Documentation/email-sent.png)
