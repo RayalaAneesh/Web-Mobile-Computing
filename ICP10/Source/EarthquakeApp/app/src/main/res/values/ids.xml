@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="date" type="id" />
+    <item name="primary_location" type="id" />
+    <item name="location_offset" type="id" />
+    <item name="magnitude" type="id" />
+</resources>
