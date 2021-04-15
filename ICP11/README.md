@@ -22,4 +22,4 @@ Storage Screen
 ![Output 4](./Documentation/Storage.png)
 
 Location Screen
-![Output 6](./Documentation/1.png)
+![Output 6](https://github.com/RayalaAneesh/Web-Mobile-Computing/blob/master/ICP11/Documentation/1.PNG)
