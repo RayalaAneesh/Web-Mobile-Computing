@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "210734361494",
+    "project_id": "webmobilecomputing",
+    "storage_bucket": "webmobilecomputing.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:210734361494:android:56f6981f990d5d36a3cbb7",
+        "android_client_info": {
+          "package_name": "com.vijaya.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "210734361494-2mck7mfn4lrk1m61mbtllhddj1djupua.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdu7dUjNCfMHRtwVkyfYWkhaYGmolhnkU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "210734361494-2mck7mfn4lrk1m61mbtllhddj1djupua.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
