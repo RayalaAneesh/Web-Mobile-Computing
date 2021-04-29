@@ -24,8 +24,8 @@ This icp i've learned how to use text to speech recognizer. And have implemented
 
 1. Intial screen when application is loaded.
 
-![Output 1](./Documentation/Output1.png)
+![Output 1](./Documentation/Output1.jpg)
 
 2. Output when user follows the commands and asks the assistant
 
-![Output 2](./Documentation/Output2.png)
+![Output 2](./Documentation/Output2.jpg)
